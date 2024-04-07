@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Formluario de Registro </h1>
+    <form id="FormluarioRegistro">
+        <label for="nombre">nombre:</label>
+        <input type="text" name="nombre" id="nombre"> <br>
+        <br>
+        <label for="apellido">apellido:</label>
+        <input type="text" name="apellido" id="apellido"> <br>
+        <br>
+        <label for="DNI">DNI:</label>
+        <input type="text" name="DNI" id="DNI"> <br>
+        <br>
+        <label for="edad">edad:</label>
+        <input type="number" name="edad" id="edad"> <br>
+        <br>
+        <label for="ciudad">ciudad:</label>
+        <select name="ciudad" id="ciudad">
+        <option value="cordoba">Cordoba</option>
+        <option value="santa fe">Santa Fe</option>
+        <option value="Rosario">Rosario</option>
+        </select> <br>
+        <br>
+        <button type="submit" onclick="enviarDatos()">Enviar Datos</button>
+        <button type="reset" onclick="borrarContenido()">Borrar Contenido</button>
+
+    </form>
+</body>
+</html>

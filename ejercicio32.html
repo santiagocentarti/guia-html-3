@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Formulario sobre el pais donde vive</h1>
+    <form>
+        <label for="nombre">nombre:</label>
+        <input type="text" name="nombre" id="nombre"> <br>
+        <br>
+        <label for="pais">Seleccione el pais donde vive:</label> <br>
+        <br>
+        <select name="pais" id="pais" size="5">
+        <option value="argentina">Argentina</option>
+        <option value="brasil">Brasil</option>
+        <option value="uruguay">Uruguay</option>
+        <option value="chile">Chile</option>
+        <option value="Bolivia">Bolivia</option>
+        <option value="Paraguay">Paraguay</option>
+        </select> <br>
+        <br>
+        <button type="submit" onclick="enviarDatos()">Enviar Datos</button>
+        <button type="reset" onclick="borrarContenido()">Borrar Contenido</button>
+    </form> 
+</body>
+</html>
